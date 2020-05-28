@@ -3234,12 +3234,16 @@ input, select, textarea {
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
+/*BORDER AROUND ALL CONTENT 1 of 2
+		
 		border-color: #dddddd;
 		border-top-style: solid;
   		border-right-style: solid;
  		border-bottom-style: hidden;
  		border-left-style: solid;
 		border-width: 1px;
+		
+*/
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3354,12 +3358,15 @@ input, select, textarea {
 	#main {
 		background-color: #FFF;
 		color: #333F48;
+		
+/*BORDER AROUND ALL CONTENT 2 of 2 */
+		
 		border-color: #dddddd;
-		border-style: solid;
+		border-bottom-style: solid;
 		border-width: 1px;
 		border-radius: .25em;
 		
-		
+	
 	
 	}
 
