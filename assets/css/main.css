@@ -3233,7 +3233,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #C7C9C7;
+		background-color: #f7f7f7;
 		border-color: #dddddd;
 		border-top-style: solid;
   		border-right-style: solid;
