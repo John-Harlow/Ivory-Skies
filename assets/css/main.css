@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
 
 /*
 	Stellar by HTML5 UP
@@ -99,11 +100,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #FFF;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #FFF 15%, #FFF 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #FFF 15%, #FFF 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #FFF 15%, #FFF 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #FFF 15%, #FFF 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,15 +121,17 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #FFF;
 		color: rgba(255, 255, 255, 0.65);
+	
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
+		font-family: 'Poppins', sans-serif;
+		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.65;
+		color: #012169;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -179,6 +182,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color
 	}
 
 		p.content {
@@ -194,7 +198,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
@@ -303,19 +307,19 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #ffffff;
+		color: #333F48;
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: #333F48;
 	}
 
 	strong, b {
-		color: #ffffff;
+		color: #333F48;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #012169;
 	}
 
 	blockquote {
@@ -2291,23 +2295,26 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #012169;
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #41B0F6;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #CC0000;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #333F48;
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #7C878E;
+		}
+		.icon.style6 {
+			color: #C7C9C7;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2488,7 +2495,7 @@ input, select, textarea {
 	}
 
 	dl dt {
-		color: #ffffff;
+		color: #333F48;
 	}
 
 /* Actions */
@@ -2661,6 +2668,7 @@ input, select, textarea {
 		header.major p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			
 		}
 
 		header.major.special {
@@ -2689,6 +2697,7 @@ input, select, textarea {
 			header.major p {
 				font-size: 1em;
 				letter-spacing: 0;
+				
 			}
 
 				header.major p br {
@@ -2879,28 +2888,31 @@ input, select, textarea {
 			-ms-flex: 1;
 			flex: 1;
 			padding: 1.5em;
-			color: #ffffff;
+			color: #41B0F6;
 			text-align: center;
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #012169;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #FFFFFF;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #CC0000;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #333F48;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #7C878E;
+			}
+			.statistics li.style6 {
+				background-color: #C7C9C7;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3334,25 +3346,27 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
-		color: #636363;
+		background-color: #FFF;
+		color: #333F48;
 		border-radius: 0.25em;
+		
+	
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
+			color: #333F48;
 		}
 
 		#main a:hover {
-			color: #636363;
+			color: #333F48;
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #333F48;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #012169;
 		}
 
 		#main blockquote {
@@ -3379,7 +3393,7 @@ input, select, textarea {
 		#main .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px #dddddd;
-			color: #636363 !important;
+			color: #333F48 !important;
 		}
 
 			#main input[type="submit"]:hover,
@@ -3467,13 +3481,13 @@ input, select, textarea {
 		}
 
 			#main select option {
-				color: #636363;
+				color: #333F48;
 				background: #ffffff;
 			}
 
 		#main input[type="checkbox"] + label,
 		#main input[type="radio"] + label {
-			color: #636363;
+			color: #333F48;
 		}
 
 			#main input[type="checkbox"] + label:before,
@@ -3484,9 +3498,9 @@ input, select, textarea {
 
 		#main input[type="checkbox"]:checked + label:before,
 		#main input[type="radio"]:checked + label:before {
-			background-color: #636363;
-			border-color: #636363;
-			color: #ffffff;
+			background-color: #333F48;
+			border-color: #333F48;
+			color: #333F48;
 		}
 
 		#main input[type="checkbox"]:focus + label:before,
@@ -3541,7 +3555,7 @@ input, select, textarea {
 		}
 
 		#main dl dt {
-			color: #636363;
+			color: #333F48;
 		}
 
 		#main header.major h2:after {
@@ -3561,7 +3575,7 @@ input, select, textarea {
 			}
 
 		#main table th {
-			color: #636363;
+			color: #333F48;
 		}
 
 		#main table thead {
@@ -3693,6 +3707,7 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		color: #333F48;
 	}
 
 		#footer > * {
