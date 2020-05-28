@@ -3272,7 +3272,7 @@ input, select, textarea {
 		}
 
 		#nav hr {
-			border-bottom-color: #dddddd;
+			border-bottom-color: #FFFFFF;
 		}
 
 		#nav + #main {
@@ -3402,7 +3402,7 @@ input, select, textarea {
 		#main button,
 		#main .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 1px #dddddd;
+			/*box-shadow: inset 0 0 0 1px #dddddd;*/
 			color: #333F48 !important;
 		}
 
