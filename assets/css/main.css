@@ -121,7 +121,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #fffff0;
+		background-color: #FFFFFF;
 		color: rgba(255, 255, 255, 0.65);
 	
 	}
@@ -3346,7 +3346,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #FFF;
+		background-color: #fffff0;
 		color: #333F48;
 		border-radius: 0.25em;
 		
