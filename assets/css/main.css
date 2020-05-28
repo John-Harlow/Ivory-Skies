@@ -3228,12 +3228,12 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
-		color: #636363;
+		color: #333F48;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #C7C9C7;
 		border-color: #dddddd;
 		border-top-style: solid;
   		border-right-style: solid;
@@ -3247,19 +3247,19 @@ input, select, textarea {
 	}
 
 		#nav input, #nav select, #nav textarea {
-			color: #636363;
+			color: #333F48;
 		}
 
 		#nav a:hover {
-			color: #636363;
+			color: #333F48;
 		}
 
 		#nav strong, #nav b {
-			color: #636363;
+			color: #333F48;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #636363;
+			color: #333F48;
 		}
 
 		#nav blockquote {
