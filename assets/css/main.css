@@ -3346,10 +3346,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #fafafa;
+		background-color: #FFF;
 		color: #333F48;
 		border-radius: 0.25em;
-		outline-style: solid;
+		border: 2px solid 41B0F6;
 		
 	
 	}
