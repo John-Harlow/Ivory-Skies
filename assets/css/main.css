@@ -3359,14 +3359,14 @@ input, select, textarea {
 		background-color: #FFF;
 		color: #333F48;
 		
-/*BORDER AROUND ALL CONTENT 2 of 2 */
+/*BORDER AROUND ALL CONTENT 2 of 2 
 		
 		border-color: #dddddd;
-		border-bottom-style: solid;
+		border-style: solid;
 		border-width: 1px;
 		border-radius: .25em;
 		
-	
+	*/
 	
 	}
 
